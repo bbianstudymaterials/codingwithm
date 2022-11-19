@@ -1,0 +1,22 @@
+.tab {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+body{
+  margin: 0;
+}
+.top{
+  background-color: lavender;
+  margin: 0;
+
+  display:flex;
+}
+.middle{
+  background-color: #EAF6F6;
+  margin: 0;
+  display: inline-block;
+}
+.buttom{
+  background-color: lavender;
+ 
+}
