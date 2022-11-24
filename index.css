@@ -4,17 +4,22 @@
 }
 body{
   margin: 0;
+  
 }
 .top{
+  padding-top: 20%;
   background-color: lavender;
   margin: 0;
-
-  display:flex;
+  text-align: center;
+display: flex;
 }
 .middle{
   background-color: #EAF6F6;
   margin: 0;
   display: inline-block;
+  padding-left: 5%;
+  padding-right: 10%;
+  
 }
 .buttom{
   background-color: lavender;
