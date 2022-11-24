@@ -1,162 +1,121 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CProgramming</title>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <title>BSc IT</title>
   <link rel="stylesheet" href="index.css">
-  <body>
-    <div class="top">
-      <h1><center><table>
+</head>
+
+<body>
+  <div class="contact">
+    <a class="active" href="">CONTACT OPTIONS</a>
+    <a href="https://api.whatsapp.com/send?phone=918099139475">WHATSAPP</a>
+    <td> <a href="https://www.instagram.com/mj_yeng_/">INSTAGRAM</a>
+      <a href="https://www.facebook.com/bantarapurg.monojit/"> FACEBOOK </a>
+     <a href="https://monojityengkhom.github.io/codingwithm/"> C PROGRAMMING DEFINITIONS </a>
+  </div>
+
+  <div class="top">
+    <h1>Welcome to the BSc IT Question Papers</h1>
+  </div>
+  <div class="middle">
+    <div class="C">
+      <h3>C Programming Question Paper</h3>
+      <table class="center">
         <tr>
-          <td>C Programming Definitions</td>
-        </tr>
-      </table></center></h1>
-    </div>
-    <div class="middle">
-      <h3>CONTROL STATEMENT IN C</h3>
-      <ol type="a">
-        <li>
-          if-else statement- It is used to execute a statement block or a single statement depending on the value of a condition.
-        </li>
-        <li>Switch Statement- It is used to execute a block of statement on the value of a variable or expression.</li>
-        <li>Break statement- It is a statement which will transfer the control to the end of the loop or statement and execute the program.</li>
-      </ol>
-      <h3>LOOP CONTROL STRUCTURES</h3>
-      <ol type="a">
-        <li>For Loop- A for loop is used to execute and repeat a block of statement depending on a condition.It has the following form: <br>
-        for(initialization;condition;increment) <br>
-          {
-            <br> statement block;
-           <br> } </li>
-        <li>While loop- A While Loop is used to execute and repeat a block of statement depending on a condition. It has the following form
-        <br> while(condition)
-         <br>  { <br>
-            statement block; <br>
-
-         } </li>
-        <li>Do While Loop- A do-while loop is used to execute and repeat a block of statement depending on a condition. It has the following form.  <br>
-        do <br>
-         { <br>
-           statement block; <br>
-         } </li>
-
-      </ol>
-      <h3>COMPARISION OF THE LOOP CONTROL STRUCTURES</h3>
-      <table class="tab" cellspacing="15">
-        <tr class="tab">
-          <th class="tab"></th>
-          <th class="tab"> <strong>for loop</strong> </th>
-          <th class="tab"> <strong>while loop</strong> </th>
-          <th class="tab"> <strong>do-while loop</strong> </th>
-        </tr>
-        <tr class="tab">
-          <td class="tab">1</td>
-          <td class="tab">A <strong>for loop </strong>is used to execute and repeat a statement block depending on a condtion which is evaluated at the beginning of the loop.</td>
-          <td class="tab"><strong>A while loop</strong> is used to execute and repeat a statement block depending on a condition which is evaluated at the beginning of the loop.
+          <td>
+            <h4>Computer Fundamentals and Progaramming 2019</h4>
           </td>
-          <td class="tab"><strong>A do-While loop</strong> is used to execute and repeat a statement block depending on a condition which is evaulated at the end of the loop.
-          </td>
+          <td> <a href="2019.pdf" download="2019.pdf">
+              <h4>Download</h4>
+            </a></td>
         </tr>
-        <tr class="tab">
-          <td class="tab">2</td>
-          <td>A variable value is initialized at the beginning of the loop and is used in the condition.</td>
-          <td class="tab">A variable value is initialized at the beginning or before the loop and is used in the condition.</td>
-          <td class="tab">A variable value is initialized before the loop or assigned inside the loop and is used in the condition.</td>
-        </tr>
-        <tr class="tab">
-          <td class="tab">3</td>
-          <td>A statement to change the value of the condtion or to increment the value of the variable is given at the beginning of the loop.</td>
-          <td class="tab">A statement to change the condition or to increment of the variable is given inside the loop.</td>
-          <td class="tab">A statement to change the value of the condtion or to increment the value of the variable is given inside the loop.</td>
-        </tr>
-        <tr class="tab">
-          <td class="tab">4</td>
-          <td class="tab">The statement block will not be executed when the value of the condition is false.</td>
-          <td class="tab">The statement block will not be executed when the value of the condition is false.</td>
-          <td class="tab">The statement block will be executed once even if the condition is false.</td>
-        </tr>
-        <tr class="tab">
-          <td class="tab">5</td>
-          <td class="tab">A for loop is commonly used by many programmers.</td>
-          <td class="tab">A while loop is also commonly used by many programmers.</td>
-          <td class="tab">A do-while loop is used in some cases where some condition need to be checked at the end of the loop.</td>
-        </tr>
-
-      </table>
-      <h3>goto STATEMENT</h3>
-      <p>The goto statement is an unconditional transfer of control statement. It is used to transer the condition from one part of the program to another. The place to which the control is transferred is identified a statement label. <br>
-      </p>
-    <h3>Break statement</h3>
-    <p>
-    The break statement is used to transfer the control to the end of the staement block in a loop. It is unavoidable statement to transfer the control to the end of a switch statement after executing any one statement block.</p> <br>
-    <h3>Continue STATEMENT</h3>
-    <p>The continue statement is used to transfer the control to the beginning of a statement block in a loop.</p> <br>
-    <h3>Exit() function</h3>
-    <p> The exit() function is used to transfer the control to the end of a program. It uses one argument in () and the value is zero for normal termination or non-zero for abnormal termination.</p> <br>
-    <h2>Arrays and Subcripted variables.</h2>
-    <p>Arrays are used to store multiple value in a single variable, instead of declaring separate variables for each value.</p> <br>
-    <h3>One-dimensional Array</h3>
-    <p>One dimensional array is a group of elements having the same datatype which are stored under a sinle variable name.</p>
-    <h3>Two dimensional Array</h3>
-    <p>Two dimensional array are the simplest form of the multidimensional array where the data is stored in multiple rows and columns.</p>
-     <h2>String Manipulation in C</h2>
-      <p>An array of characters is known as a string.</p>
-    <h3>String handling function in C</h3>
-    <p>There are four important string handling function in C language.</p>
-    <ol type="i">
-      <li>strlen() function- It is used to find the length of a character string. </li>
-      <li>strcpy() function- It is used to copy a character string to a character variable. </li>
-      <li>strcat() function- It is used to join character string.</li>
-      <li>strcmp() function- It is used to compare two character strings.It return 0 when two strings are identical, otherwise it returns a numerical value which is the difference in ASCII values of the first mismatching characters of the strings being compared.</li>
-      <li>atoi() function- It is used to convert a string of digits to the integer value.</li>
-    </ol>
-    <h2>STRUCTURES and UNIONS</h2>
-    <h2>Structures</h2>
-    <p>A Structure is a user defined compound data type which consist of data members related to a person or an item. It is refered to record in other programming languges. A Structure has the following general form.
-    <br> struct tag-name
-  <br>    { <br>
-     type data_member1; <br>
-     type data_member2; <br>
-     .................. <br>
-     .................. <br>
-  }; </p>
-  <p>Note:
-   <ol type="i">
-     <li> The Structure definition ends with a semicolon(;) after the closing brace.</li>
-     <li> The Data members of a structure occupy a contiguous block of memory. </li>
-
-   </ol>
-   </p>
-   <h3>Assigning Value of a structure to another structure</h3>
-   <p>All values available in a structure can be assigned to another structure of the same type if all data members in the structures are of the same data type. </p>
-   <h3>Unions</h3>
-   <p>Similarly to a structure, a union also consist of data members but only one data member is active at a time. It has the following form.</p>
-   <p>union tag_name <br>
-   { <br>
-     type data_member1; <br>
-     type data_member2; <br>
-     ................. <br>
-     ..................<br>
-
-   } ; <br>
-   where type is the data type of the data_members, <br>
-          data_member1,data_member2.... are the variables, <br>
-          tag_name is the name of the union. <br>
- </p>
-    </div>
-    <div class="buttom"> <center>
-      <table>
         <tr>
-           <td> <a href="https://api.whatsapp.com/send?phone=918099139475"><img src="whatlogo.png" alt="whatsapp icnon" height="90px"
-            width="100px"></a></td>
-          <td> <a href="https://www.instagram.com/mj_yeng_/"><img src="Instagram-Logo.wine.png" alt="Instagram icnon" height="100px"
-          width="120px"></a></td>
-          <td><a href="https://www.facebook.com/bantarapurg.monojit/"> <img src="Facebook-logo.png" alt="facebook logo" width="100px" height="80px"> </a></td>
+          <td>
+            <h4>Computer Fundamentals and Progaramming 2018</h4>
+          </td>
+          <td> <a href="2018.pdf" download="2018.pdf">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Computer Fundamentals and Progaramming 2015</h4>
+          </td>
+          <td> <a href="2015.pdf" download="2015.pdf">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Computer Fundamentals and Progaramming 2022 Sessiona</h4>
+          </td>
+          <td> <a href="2022.jpg" download="2022.jpg">
+              <h4>Download</h4>
+            </a></td>
         </tr>
       </table>
-
-  </center>
     </div>
-  </body>
+    <div class="Maths">
+      <h3>Mathematics Question Paper</h3>
+      <table class="center">
+        <tr>
+          <td>
+            <h4>Mathematics 2018</h4>
+          </td>
+          <td> <a href="2018m.pdf" download="2018m.pdf">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Mathematics 2019</h4>
+          </td>
+          <td> <a href="2019m.pdf" download="2019m.pdf">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Mathematics 2017</h4>
+          </td>
+          <td> <a href="2017m.pdf" download="2017m.pdf">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Mathematics 2016 </h4>
+          </td>
+          <td> <a href="2016m.jpg" download="2016m.jpg">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Mathematics Sessional 2022 </h4>
+          </td>
+          <td> <a href="2022sm.jpg" download="2022sm.jpg">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="ICT">
+      <h3>ICT Hardware Question Paper</h3>
+      <table class="center">
+        <tr>
+          <td>
+            <h4> ICT Hardware Sessional 2022 </h4>
+          </td>
+          <td> <a href="2022sict.jpg" download="2022sict.jpg">
+              <h4>Download</h4>
+            </a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+
 </html>
