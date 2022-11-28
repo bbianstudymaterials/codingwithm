@@ -60,3 +60,17 @@ h1{
 .imagge{
   margin: auto;
 }
+
+.btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
