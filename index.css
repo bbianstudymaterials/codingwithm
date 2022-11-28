@@ -10,6 +10,10 @@ h1{
 .top{
   text-align: center;
 }
+.top h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
  h3{
    color: #45A29E;
    text-align: center;
